@@ -76,7 +76,7 @@ body{
   align-items: center;
   padding: 10px 10%; 
   margin: 0 auto; /* Center the container */
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 .text-container {
@@ -119,4 +119,92 @@ body{
   border: none; /* Remove border */
   border-radius: 5px; /* Add rounded corners if desired */
   cursor: pointer; /* Add a pointer cursor on hover */
+  margin-top: 30px;
+}
+
+.footer {
+  background-color: #1D3960;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 45px;
+}
+
+.contactInfo {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+.additionalInfo {
+  font-size: 14px;
+}
+
+.login-container {
+  width: 300px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-login {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.google-button,
+.facebook-button {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.social-icon {
+  margin-right: 8px;
+}
+
+.divider {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
 }

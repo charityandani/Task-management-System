@@ -3,15 +3,17 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Hometext from '../components/Hometext';
 import Getstarted from '../components/Getstarted';
-import Taskpic from '../components/Taskpic';
+import Footer from '../components/Footer';
+
 
 export default function Home() {
   return (
     <>
       <Navbar />
       <Hometext/>
-      <Getstarted/>
-      <Taskpic/>
+      <Footer/>
+    
+    
       
       
     </>

@@ -1,4 +1,7 @@
 
+import Taskpic from "./Taskpic";
+import Getstarted from "./Getstarted";
+
 export default function Hometext()
 {
 
@@ -8,7 +11,7 @@ export default function Hometext()
             <h1>Welcome to task management tool</h1>
             <h3>Organize. Simplify. Achieve. Repreat</h3>
             <p>
-          Welcome to Task Planner, your all-in-one solution for streamlined
+           Your all-in-one solution for streamlined
           task management. Task Planner is designed to simplify your workflow,
           increase productivity, and bring organization to your daily tasks.
           With an intuitive interface, powerful features, and a user-friendly
@@ -21,8 +24,9 @@ export default function Hometext()
           tasks and unlock the potential of your productivity with Task Planner
           – where organization meets simplicity.
         </p>
+      <Getstarted/>
             </div>
-         
+         <Taskpic/>
         </div>
       );
 
