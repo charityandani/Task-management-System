@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background-color: white;
+  min-height: 100%;
+  font-size: 14px;
+  font-weight: normal;
+  color: #1D3960;
+  min-width: 320px
+  
+  
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%; /* Adjusted padding */
+  color: #1D3960;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.site-title {
+  text-decoration: none;
+  color: #1D3960;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 30px;
+  margin-top: 10px;
+ 
+}
+
+.login-link,
+.feature-link {
+  text-decoration: none;
+  color: #1D3960;
+  font-size: 18px;
+}
+
+.navbar-button {
+  color: #3498db;
+  padding: 10px 30px;
+  background-color: #f0f0f0;
+  border: 1.8px solid #3498db;
+  border-radius: 15px;
+  font-size: 18px;
+}
+
+/* Add a hover effect for the button */
+.navbar-button:hover {
+  background-color: #3498db;
+  color: #fff;
+}
+
+/* YourComponent.css */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%; 
+  margin: 0 auto; /* Center the container */
+  padding-top: 50px;
+}
+
+.text-container {
+  width: 60%; /* Adjust the width as needed */
+  
+}
+
+.text-container h1{
+  margin-bottom: 20px;
+}
+
+.text-container h3{
+  margin-bottom: 20px;
+}
+
+.text-container p{
+
+  margin-bottom: 30px;
+}
+
+
+
+.image-container {
+  width: 35%; /* Adjust the width as needed */
+}
+
+
+.image-container img {
+  max-width: 100%;
+  
+}
+
+.getstartedbtn{
+
+  background-color: #3498db;
+
+  color: #fff; /* Text color */
+  padding: 10px 30px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add rounded corners if desired */
+  cursor: pointer; /* Add a pointer cursor on hover */
+}
