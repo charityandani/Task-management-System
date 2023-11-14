@@ -62,15 +62,16 @@ body {
     border-radius: 5px;
   }
   
-  button {
-    padding: 10px;
-    background-color: #4caf50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #45a049;
-  }
+button {
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Adding a smooth transition effect */
+}
+
+button:hover {
+  background-color: #2980b9; /* Darker shade on hover */
+}
