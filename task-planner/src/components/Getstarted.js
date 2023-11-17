@@ -1,11 +1,11 @@
 
-export default function Getstarted(){
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-    return(
-
-
-<button className="getstartedbtn">Get Started</button>
-
-      
-    );
+export default function GetStarted() {
+  return (
+    <Link to="/Signup">
+      <button className="getstartedbtn">Get Started</button>
+    </Link>
+  );
 }

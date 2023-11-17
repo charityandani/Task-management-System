@@ -1,18 +1,29 @@
 
-import Button from "./Button"
-export default function Navbar(){
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Button from './Button';
 
-    return <>
-    
+export default function Navbar() {
+  return (
     <nav className="nav">
-      <a href="/" className="site-title">Task Planner</a>
+      {/* Use Link instead of a regular anchor tag */}
+      <Link to="/Home" className="site-title">
+        Task Planner
+      </Link>
       <ul>
-       
-        <li className='nav-item'><a href="/" className="login-link">Login</a></li>
-        <li><Button></Button></li>
+        {/* Use Link for navigation instead of a regular anchor tag */}
+        <li className="nav-item">
+          <Link to="/LOGIN" className="login-link">
+            Login
+          </Link>
+        </li>
+        <li>
+          {/* If this is a navigation button, you might want to wrap it with Link too */}
+          <Link to="/Signup">
+            <Button />
+          </Link>
+        </li>
       </ul>
     </nav>
-  
-
-    </>
+  );
 }
