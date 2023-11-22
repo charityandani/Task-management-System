@@ -47,28 +47,28 @@ const data = [
                     <h3>MEMBERS</h3>
                     
                 </div>
-                <h1>300</h1>
+                <h1>0</h1>
             </div>
             <div className='card'>
                 <div className='card-inner'>
                     <h3>PROJECTS</h3>
                    
                 </div>
-                <h1>12</h1>
+                <h1>0</h1>
             </div>
             <div className='card'>
                 <div className='card-inner'>
                     <h3>COMPLETED PROJECTS</h3>
                     
                 </div>
-                <h1>33</h1>
+                <h1>0</h1>
             </div>
             <div className='card'>
                 <div className='card-inner'>
                     <h3>TASKS</h3>
                   
                 </div>
-                <h1>42</h1>
+                <h1>0</h1>
             </div>
 
             <div className='card'>
@@ -76,28 +76,28 @@ const data = [
                     <h3>PENDING TASKS</h3>
                   
                 </div>
-                <h1>42</h1>
+                <h1>0</h1>
             </div>
             <div className='card'>
                 <div className='card-inner'>
                     <h3>COMPLETED TASKS</h3>
                   
                 </div>
-                <h1>42</h1>
+                <h1>0</h1>
             </div>
             <div className='card'>
                 <div className='card-inner'>
                     <h3>ALERTS</h3>
                   
                 </div>
-                <h1>42</h1>
+                <h1>0</h1>
             </div>
             <div className='card'>
                 <div className='card-inner'>
                     <h3>ALERTS</h3>
                   
                 </div>
-                <h1>42</h1>
+                <h1>0</h1>
             </div>
 
         </div>
