@@ -8,17 +8,19 @@ import "./Loginfrm.css";
 export default function Loginfrm()
 {
 
-    const [values,setValues] = useState(
-        {
-            
-            email:"",
-            password:"",
-        }
-    );
+
+    
+        const [data,setData] = useState(
+            {
+        
+                email:"",
+                password:"",
+            }
+        );
 
     const handleChange = (event) =>{
-        setValues({
-            ...values,
+        setData({
+            ...data,
             [event.target.name]: event.target.value,
         })
     }
@@ -39,15 +41,13 @@ return(
     
     <div className="email">
     <label className="label">Email</label>
-    <input className="input" type="email" name="Email" value={values.email}
-    onChange={handleChange}
+    <input className="input" type="email" name="Email" value={data.email} onChange={(e)=>setData({...data,email: e.target.value})}
     />
     </div>
 
     <div className="password">
     <label className="label">Password</label>
-    <input className="input" type="password" name="Password" value={values.password}
-    onChange={handleChange}
+    <input className="input" type="password" name="Password" value={data.password} onChange={(e)=>setData({...data,password: e.target.value})}
     />
     </div>
     <div>
