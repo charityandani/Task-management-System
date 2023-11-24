@@ -1,5 +1,6 @@
 
 import React, {useState}from "react";
+import { useNavigate } from 'react-router-dom';
 import "./Loginfrm.css";
 
 
@@ -8,7 +9,7 @@ import "./Loginfrm.css";
 export default function Loginfrm()
 {
 
-
+const navigate = useNavigate();
     
         const [data,setData] = useState(
             {
@@ -51,7 +52,15 @@ return(
     />
     </div>
     <div>
-        <button className="submit" onClick={handleFormSubmit}>Login</button>
+    
+              <button className="submit"
+               onClick={() => {
+
+            navigate ("/Admin");
+               }}>
+                Login
+              </button>
+        
     </div>
     
     </form>
