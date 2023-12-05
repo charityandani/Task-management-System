@@ -6,6 +6,7 @@ import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Admin from './pages/Admin';
 import './App.css';
+import TableEmp from './pages/TableEmp';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/Login" element={<Login />} />
           <Route path="/Signup" element={<Signup />} />
           <Route path="/Admin" element={<Admin />} />
+          <Route path="/TableEmp" element={<TableEmp />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -1,0 +1,63 @@
+
+.tableWrap {
+
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+table th, table td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 2px 40px;
+    font-size: larger;
+    color: #fff;
+    background-color: #2962ff;
+}
+
+table th{
+    color: black;
+}
+
+table{
+
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+input{
+
+    padding:5px;
+    margin-right: 5px;
+}
+
+.addForm button{
+
+    width: 100px;
+    padding: 5px;
+    color: white;
+    background-color: green;
+}
+.edit{
+    color: white;
+    margin-right: 5px;
+    background-color: green;
+}
+
+.edit:hover{
+
+    background-color: rgb(7,7,72);
+
+}
+
+.delete{
+    color: white;
+    background-color: red;
+}
+
+.delete:hover{
+    background-color: rgb(108,8,8);
+}

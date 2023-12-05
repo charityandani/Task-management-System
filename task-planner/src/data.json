@@ -1,0 +1,30 @@
+[
+    {
+     "id": 1,
+     "name": "Andani",
+     "email":"charity@gmail.com",
+     "phone":"0725438282"
+    },
+
+    
+    {
+        "id": 2,
+        "name": "Charity",
+        "email":"charity@gmail.com",
+        "phone":"0725438282"
+       },
+       
+    {
+        "id": 3,
+        "name": "Munei",
+        "email":"charity@gmail.com",
+        "phone":"0725438282"
+       },
+       
+    {
+        "id": 4,
+        "name": "Asa",
+        "email":"charity@gmail.com",
+        "phone":"0725438282"
+       }
+]
