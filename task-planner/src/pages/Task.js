@@ -1,17 +1,18 @@
-import TableEmployee from "../components/TableEmployee";
+import TaskList from "../components/TaskList";
 import Sidebar from "../components/Sidebar";
 import Header from "../components/Header";
 
 
 
-export default function  TableEmp()
+export default function  Task()
 {
     return(
         <div className="grid-container">
            
             <Header/>
             <Sidebar/>
-           <TableEmployee/>  
+            <TaskList/>
+           
 
         </div>
         
@@ -20,3 +21,4 @@ export default function  TableEmp()
         
         );
 }
+

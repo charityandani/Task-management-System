@@ -56,7 +56,7 @@ return(
               <button className="submit"
                onClick={() => {
 
-            navigate ("/Admin");
+            navigate ("/Dashboard");
                }}>
                 Login
               </button>

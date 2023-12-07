@@ -4,9 +4,11 @@ import Home from './pages/Home';
 
 import Login from './pages/Login';
 import Signup from './pages/Signup';
-import Admin from './pages/Admin';
+import Dashboard from './pages/Dashboard';
 import './App.css';
 import TableEmp from './pages/TableEmp';
+import Project from './pages/Project';
+import Task from './pages/Task';
 
 function App() {
   return (
@@ -20,8 +22,10 @@ function App() {
        
           <Route path="/Login" element={<Login />} />
           <Route path="/Signup" element={<Signup />} />
-          <Route path="/Admin" element={<Admin />} />
+          <Route path="/Dashboard" element={<Dashboard />} />
           <Route path="/TableEmp" element={<TableEmp />} />
+          <Route path="/Project" element={<Project />} />
+          <Route path="/Task" element={<Project />} />
         </Routes>
       </BrowserRouter>
     </div>

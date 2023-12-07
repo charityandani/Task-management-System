@@ -5,7 +5,7 @@ import DashboardContent from "../components/DashboardContent";
 
 
 
-export default function  Admin()
+export default function  Dashboard()
 {
     return(
         <div className="grid-container">

@@ -1,5 +1,5 @@
 
-.tableWrap {
+  .tableWrap {
 
     height:100vh;
     display: flex;
@@ -7,15 +7,21 @@
     align-items: center;
 }
 
+.title {
+    display: flex;
+    justify-content: space-between;
+    color: #173F5F;
+  }
+
 
 
 table th, table td{
     border: 1px solid black;
     text-align: center;
-    padding: 2px 40px;
+    padding: 15px 40px;
     font-size: larger;
     color: #fff;
-    background-color: #2962ff;
+    background: linear-gradient(135deg, #007bff, #004a99);
 }
 
 table th{
@@ -30,7 +36,7 @@ table{
 
 input{
 
-    padding:5px;
+    padding:10px;
     margin-right: 5px;
 }
 
@@ -49,15 +55,18 @@ input{
 
 .edit:hover{
 
-    background-color: rgb(7,7,72);
+    background-color:#fff;
+    color: #007bff;
 
 }
 
 .delete{
     color: white;
-    background-color: red;
+    background-color:#173F5F;
 }
 
 .delete:hover{
-    background-color: rgb(108,8,8);
+  
+    background-color:#fff;
+    color: #007bff;
 }

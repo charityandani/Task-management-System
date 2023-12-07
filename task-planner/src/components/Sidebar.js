@@ -4,6 +4,7 @@ import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import * as AoIcons from "react-icons/io";
 import { MdDashboard , MdTask} from "react-icons/md";
+import { Link } from 'react-router-dom';
 
 
 
@@ -24,24 +25,24 @@ export default function Sidebar(){
 <ul className="sidebar-list">
 
 <li className="sidebar-list-item">
-<a href="">
-    <MdDashboard className="icon"/>Dashboard
-</a>
+
+<Link to="/Dashboard">  <MdDashboard className="icon"/>Dashboard</Link>
+
 </li>
 <li className="sidebar-list-item">
-<a href="">
-    <FaIcons.FaUsers className="icon"/>Employee
-</a>
+<Link to="/TableEmp">  <FaIcons.FaUsers className="icon"/>Employee</Link>
+
+
 </li>
 <li className="sidebar-list-item">
-<a href="">
-    <FaIcons.FaProjectDiagram className="icon"/>Project
-</a>
+
+<Link to="/Project">  <FaIcons.FaProjectDiagram className="icon"/>Project</Link>
+
 </li>
 <li className="sidebar-list-item">
-<a href="">
-    <FaIcons.FaTasks className="icon"/>Tasks
-</a>
+
+<Link to="/Task">  <FaIcons.FaTasks className="icon"/>Task</Link>
+
 </li>
 <li className="sidebar-list-item">
 <a href="">

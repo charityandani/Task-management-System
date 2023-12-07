@@ -5,8 +5,19 @@ import "./Table.css";
 
 export default function TableEmployee()
 {
+
+    
+
     const [data,setData] = useState(Data)
     return(
+      
+<main  className="main-container">
+
+    <div className="title">
+    <h3>EMPLOYEE LIST</h3>
+    </div>
+
+            
         <div className="tableWrap">
             <div>
             <AddMember/>
@@ -36,19 +47,25 @@ export default function TableEmployee()
             </table>
             </div>
         </div>
+    
+        
+        </main>
     )
+
 }
+
 
 function AddMember(){
 
     return(
         <form className="addForm">
-            <input type="text" name="Id" placeholder="Enter Name"/>
+            <input type="text" name="Id" placeholder="Enter employeeID"/>
             <input type="text" name="name" placeholder="Enter Name"/>
-            <input type="text" name="email" placeholder="Enter Name"/>
-            <input type="text" name="phone" placeholder="Enter Name"/>
+            <input type="text" name="email" placeholder="Enter email"/>
+            <input type="text" name="phone" placeholder="Enter phone number"/>
             <button>Add</button>
         </form>
     )
 }
+
 
